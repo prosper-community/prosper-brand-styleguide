@@ -1,0 +1,88 @@
+/* General */
+body { background: #eeecea; }
+.row.main { padding: 0px 0 40px 0; clear: left; border-bottom: 1px solid rgba(0,0,0,0.1); margin-bottom: 60px; }
+.cover { background-size: cover!important; }
+hr { border-bottom: 1px solid rgba(0,0,0,0.1); }
+
+/* Links */
+a { color: #006875; }
+a:hover { color: #17AF95; }
+p a { border-bottom: 3px solid rgba(0,0,0,0.1); }
+p a:hover { border-bottom: 3px solid rgba(0,0,0,0); }
+
+/* Typography */
+h1 { font-weight: 900; text-transform: uppercase; line-height: 1; color: #006875; }
+h2, h3, h4, h5 { font-weight: 800; text-transform: uppercase; line-height: 1.2; color: #006875; }
+h6 { font-weight: 600; line-height: 1.2; color: #006875; }
+h1, h2, h3 { letter-spacing: -1px; }
+.elements p { font-size: 0.8rem; }
+.long-form { font-family: rooney-web, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif }
+
+/* Header and Navigation */
+.top-bar { background-color: #006875; position: fixed; width: 100%; z-index: 1000; }
+.top-bar ul { background-color: transparent; }
+.top-bar .logo { background-image: url(../img/no-bg_Prosper.svg); background-repeat: no-repeat; background-position: center; width: 200px; height: 0px; padding: 40px 0 0 0!important; margin: 10px 0 0 1rem; overflow: hidden; display: block; }
+.top-bar .top-bar-right { margin: 10px 1rem 10px 0; }
+.top-bar .menu { font-size: 1rem; text-transform: uppercase; font-weight: 300; }
+.top-bar .menu a { color: #eeecea; }
+.top-bar .menu a:hover { color: #f4ee7f; }
+.top-bar .menu a.on { color: #17AF95; }
+
+/* Hero */
+.hero { padding-top: 100px; margin: 0 0 60px 0; background: #f4ee7f; background-size: cover; background-attachment: fixed; background-position: center; }
+.full { width: 100%; float: left; }
+.hero .large-8 { padding: 150px 0; }
+.hero h1 { font-size: 4rem; }
+.hero p { font-size: 1.4rem; }
+
+/* Buttons */
+.button-group .button:not(:last-child) { border-right: none; margin-right: 1px; }
+.button { background: #17AF95; border-radius: 5px; box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.15); }
+.button:hover { background: #006875; box-shadow: 0px 0px 0px 0px rgba(0,0,0,0.0); }
+.hollow.button { border-color: #17AF95; color: #17AF95; }
+.hollow.button:hover { border-color: #006875; color: #006875; }
+.button-group .button { border-radius: 0; }
+.button-group .button:last-child {border-radius: 0 5px 5px 0; }
+.button-group .button:first-child {border-radius: 5px 0 0 5px; }
+
+/* Colours */
+.color-block { width: 100%; height: 0%; padding-bottom: 75%; display: block; margin-bottom: 1rem; background-position: center; background-size: contain; background-repeat: no-repeat; box-shadow: 0px 2px 10px 0px rgba(0,0,0,0.15); position: relative; }
+.dark-teal { background-color: #006875; }
+.teal { background-color: #17AF95; }
+.warm-grey { background-color: #EEEBEA; }
+.yellow { background-color: #F7EE80; }
+.teal-yellow { background: -webkit-linear-gradient(45deg, #17AF95, #F7EE80); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #17AF95, #F7EE80); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #17AF95, #F7EE80); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #17AF95, #F7EE80); /* Standard syntax */ }
+.warm-grey-yellow { background: -webkit-linear-gradient(45deg, #EEEBEA, #F7EE80); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #EEEBEA, #F7EE80); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #EEEBEA, #F7EE80); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #EEEBEA, #F7EE80); /* Standard syntax */ }
+.teal-warm-grey { background: -webkit-linear-gradient(45deg, #17AF95, #EEEBEA); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #17AF95, #EEEBEA); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #17AF95, #EEEBEA); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #17AF95, #EEEBEA); /* Standard syntax */ }
+.dark-teal-teal { background: -webkit-linear-gradient(45deg, #006875, #17AF95); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #006875, #17AF95); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #006875, #17AF95); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #006875, #17AF95); /* Standard syntax */ }
+
+/* Image Overlays */
+.color-overlay-dark-teal:before { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background-color: #006875; }
+.color-overlay-teal:before { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background-color: #17AF95; }
+.color-overlay-warm-grey:before { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background-color: #EEEBEA; }
+.color-overlay-yellow:before { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background-color: #F7EE80; }
+.color-overlay-teal-yellow:before  { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background: -webkit-linear-gradient(45deg, #17AF95, #F7EE80); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #17AF95, #F7EE80); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #17AF95, #F7EE80); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #17AF95, #F7EE80); /* Standard syntax */ }
+.color-overlay-warm-grey-yellow:before  { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background: -webkit-linear-gradient(45deg, #EEEBEA, #F7EE80); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #EEEBEA, #F7EE80); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #EEEBEA, #F7EE80); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #EEEBEA, #F7EE80); /* Standard syntax */ }
+.color-overlay-teal-warm-grey:before  { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background: -webkit-linear-gradient(45deg, #17AF95, #EEEBEA); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #17AF95, #EEEBEA); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #17AF95, #EEEBEA); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #17AF95, #EEEBEA); /* Standard syntax */ }
+.color-overlay-dark-teal-teal:before  { content:""; display: block; width: 100%; height: 100%; position: absolute; opacity: 0.66; background: -webkit-linear-gradient(45deg, #006875, #17AF95); /* For Safari 5.1 to 6.0 */ background: -o-linear-gradient(45deg, #006875, #17AF95); /* For Opera 11.1 to 12.0 */ background: -moz-linear-gradient(45deg, #006875, #17AF95); /* For Firefox 3.6 to 15 */ background: linear-gradient(45deg, #006875, #17AF95); /* Standard syntax */ }
+
+/* Forms */
+input, textarea, select { border-radius: 5px!important; }
+textarea { min-height: 10rem; }
+
+
+.madlib label { font-size: 1rem; display: inline; }
+.madlib input { width: 25%; display: inline; background: none; border-radius: 0!important; box-shadow: none; padding: 0; margin: 0 0.25em; height: auto; border-left: none; border-right: none; border-top: none; }
+.madlib input:focus { background: none; border-top: none; border-left: none; border-right: none; box-shadow: none; }
+
+
+/* Footer */
+footer { background: #002528; padding: 3rem 0; }
+footer h5 { color: #17AF95; }
+footer a { color: #eeecea; }
+footer a:hover { color: #f4ee7f; }
+footer li { list-style-type: none; position: relative; }
+footer li a:before { content:"\203A"; position: absolute; left: -1rem; }
+footer .l-social-icon-list { padding: 0; margin: 0; }
+footer .l-social-icon-list li a:before { content: ""; padding: 0; margin: 0 }
+footer .l-social-icon-list li { padding: 0; margin: 0; list-style: none; float: left; }
