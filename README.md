@@ -5,7 +5,8 @@ Clear examples guiding the style used for the [Prosper community](http://prosper
 ## Contributors
 
 * Dean Hayden
+* John Ellison
 
-## Licensing
+## Copyright
 
-Currently unresolved.
+&copy; John Ellison 2015–2016
